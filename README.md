@@ -16,12 +16,12 @@
   * Begging and end date 
   * Begging and end time
   * Choose type of event.
-* User can edit or delete event page.
-* After user done of create his event page he should send an order for admin to confirme his event.
-* user can delete event order.
+  * User can edit or delete event page.
 * There is two type of events: 
   * **Private event.** Event creator send a ticket dirctiry to guest email.
   *  **Public event.** Guest will pay for get a ticket. Event creator determin number of ticket he will sell and the cost.
+* After user done of create his event page he should send an order for admin to confirme his event.
+* user can delete event order.
 * User can see the pupblic event with out sign in.
 * **After Admin confirmation** :
   * User can set guest emails and send invation email to them.
