@@ -44,5 +44,5 @@
 * Creator event user will have link for read/scan QR ticket.(This link used at door of event location to let guset enter if it is verfied)
 * Creator event user have table for guest that contains two rows: "email" filled by guest email, and "came" filled by yes or no.
 * In admin dashboard there is bar chart showing analisis of response rate in each event in application. Values computed referring to data achieved from event's geust.
-* 
+* **Admin** can delete any event in any time, and block and unblock user account.
   ----
