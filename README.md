@@ -18,19 +18,24 @@
   * Choose type of event.
   * User can edit or delete event page.
 * There is two type of events: 
-  * **Private event.** Event creator send a ticket dirctiry to guest email.
-  *  **Public event.** Guest will pay for get a ticket. Event creator determin number of ticket he will sell and the cost.
-* After user done of create his event page he should send an order for admin to confirme his event.
-* user can delete event order.
+  * **Private Event.** Event creator send a ticket dirctiry to guest email.
+  *  **Public Event.** Guest will pay for get a ticket. Event creator determin number of ticket he will sell and the cost.
+* After user done of create his event page he should send an order for admin to confirme his event. (user can delete event order)
 * User can see the pupblic event with out sign in.
 * **After Admin confirmation** :
-  * User can set guest emails and send invation email to them.
+  * **Private Event**
+    * User can set guest emails and send invation email to them.
+    * The invation email contains: 
+      * QR ticket (expired by the end of event)
+      * Invation letter
+      * Event Date and time
+      * Event page like that was created by event creator.(When guest open link he will be able to see event page)
+  * **Public Event**
+    * User can see public event page without have an account.
+    * User can buy a ticket only when he register and logged in.
+    * After user decide to buy a ticket and pay for it he will recive email ticket.
   * The invation email contains: 
-    * QR ticket (expired by the end of event)
-    * Invation letter
-    * Event Date and time
-    * Event page like that was created by event creator.(When guest open link he will be able to see event page)
-   * User will have scan link for read QR ticket.(This link used at door of event location to let guset enter if it is verfied)
-   * User have table for quest that contains "email"  filled by guest email and "came" column filled by yes or no.
+  * User will have scan link for read QR ticket.(This link used at door of event location to let guset enter if it is verfied)
+  * User have table for quest that contains "email"  filled by guest email and "came" column filled by yes or no.
  
        
