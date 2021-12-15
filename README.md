@@ -21,7 +21,6 @@
   * Choose type of event.
   * User can edit or delete event page.
 * After user done of create his event page he should send an order for admin to confirme his event. (user can delete event order)
-* User can see the pupblic event with out sign in.
 * **After Admin confirmation** :
   * **Private Event**
     * User can set guest emails and send invation email to them.
