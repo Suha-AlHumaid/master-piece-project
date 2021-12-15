@@ -7,10 +7,10 @@
 * User can reset his password by sending email with code/link to him.
 
 * There is two type of events: 
-  * **Private Event.** 
+  * **Special Event**
+    In special event case the creator can choose selling tickets or give it for free. Also the guest can send donation to event creator like a supporting for a charity events.
+   * **Private Event** 
     Event creator send a ticket dirctiry to guest email.
-  * **Public Event.**
-    Guest will pay for get a ticket or got it for a free also users can send donation. Event creator determine number of ticket he will sell and what will be the cost.
 
 * User can create his event page by filling this informaion:
   * Title
@@ -30,7 +30,7 @@
   * **In case: event type was a private**
     * User can set guest emails and send invitation email to them.
 
-  * **In case: event type was a public**
+  * **In case: event type was a special**
     * User can see public event page without have an account.
     * User can buy a ticket only when he register and logged in.
     * After user decide to buy a ticket and pay for it he will recive email ticket.
@@ -41,7 +41,8 @@
   * Event Date and time
   * Event page like that was created by event creator.(When guest open link he will be able to see event page)
 
-* Creator event user will have scan link for read QR ticket.(This link used at door of event location to let guset enter if it is verfied)
-* Creator event user have table for quest that contains "email"  filled by guest email and "came" column filled by yes or no.
- 
-       
+* Creator event user will have link for read/scan QR ticket.(This link used at door of event location to let guset enter if it is verfied)
+* Creator event user have table for guest that contains two rows: "email" filled by guest email, and "came" filled by yes or no.
+* In admin dashboard there is bar chart showing analisis of response rate in each event in application. Values computed referring to data achieved from event's geust.
+* 
+  ----
