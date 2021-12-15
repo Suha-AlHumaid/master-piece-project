@@ -4,11 +4,13 @@
 * User sign up with this information [ email, full name, password, phone number]
 * User can sign up with Google.
 * User sign in with [ email, password ]
-* User can reset his password.
+* User can reset his password by sending email with code/link to him.
 
 * There is two type of events: 
-  * **Private Event.** Event creator send a ticket dirctiry to guest email.
-  * **Public Event.** Guest will pay for get a ticket. Event creator determin number of ticket he will sell and the cost.
+  * **Private Event.** 
+    Event creator send a ticket dirctiry to guest email.
+  * **Public Event.**
+    Guest will pay for get a ticket or got it for a free also users can send donation. Event creator determine number of ticket he will sell and what will be the cost.
 
 * User can create his event page by filling this informaion:
   * Title
@@ -26,14 +28,14 @@
 
 * **After Admin confirmation** :
   * **In case: event type was a private**
-    * User can set guest emails and send invation email to them.
+    * User can set guest emails and send invitation email to them.
 
   * **In case: event type was a public**
     * User can see public event page without have an account.
     * User can buy a ticket only when he register and logged in.
     * After user decide to buy a ticket and pay for it he will recive email ticket.
 
-* The invation email contains: 
+* The invitation email contains: 
   * QR ticket (expired by the end of event)
   * Invation letter
   * Event Date and time
