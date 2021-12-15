@@ -1,14 +1,14 @@
-# Event's Web Application
+### Event's Web Application
 
-## User Story:
+# User Story:
 * User sign up with this information [ email, full name, password, phone number]
 * User can sign up with Google.
 * User sign in with [ email, password ]
 * User can reset his password by sending email with code/link to him.
 
 * There is two type of events: 
-  * **Special Event**
-    In special event case the creator can choose selling tickets or give it for free. Also the guest can send donation to event creator like a supporting for a charity events.
+  * **Events**
+    In public event case the creator can choose selling tickets or give it for free. Also the guest can send donation to event creator like a supporting for a charity events.
    * **Private Event** 
     Event creator send a ticket dirctiry to guest email.
 
