@@ -25,10 +25,10 @@
 * After user done of create his event page he should send an order for admin to confirme his event. (user can delete event order)
 
 * **After Admin confirmation** :
-  * **Private Event**
+  * **In case: event type was a private**
     * User can set guest emails and send invation email to them.
 
-  * **Public Event**
+  * **In case: event type was a public**
     * User can see public event page without have an account.
     * User can buy a ticket only when he register and logged in.
     * After user decide to buy a ticket and pay for it he will recive email ticket.
