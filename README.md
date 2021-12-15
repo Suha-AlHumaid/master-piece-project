@@ -1,6 +1,6 @@
-### Event's Web Application
+# Event's Web Application
 
-# User Story:
+## User Story:
 * User sign up with this information [ email, full name, password, phone number]
 * User can sign up with Google.
 * User sign in with [ email, password ]
